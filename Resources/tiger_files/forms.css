@@ -1,0 +1,58 @@
+/* Forms */
+textarea {
+  padding-top: 0;
+}
+
+textarea.form, input.form {
+  border: solid 1px #8fbed7;
+}
+
+input.wrong-required, input.wrong-preset, textarea.wrong-required, textarea.wrong-preset {
+  border: solid 1px #8fbed7;
+  background-color: lightyellow;
+}
+
+a.user-guest {
+  color: gray;
+}
+
+p.sign {
+  text-align: right;
+  font-style: italic;
+}
+
+/* Contact us */
+table.contact td {
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+table.contact td.r {
+  text-align: right;
+}
+
+form.contact table {
+  width: 90%;
+}
+
+form.contact table td {
+  vertical-align: top;
+}
+
+form.download input,
+form.download select,
+form.contact input,
+form.contact textarea {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+form.contact input {
+  width: 99%;
+}
+
+form.contact textarea {
+  height: 150px;
+  width: 99%;
+}
+

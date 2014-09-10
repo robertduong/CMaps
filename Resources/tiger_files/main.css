@@ -1,0 +1,333 @@
+@charset "utf-8";
+
+/* Common styles */
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url('/design/img/MyriadPro-Regular.otf');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #f7f7f7 url('/design/img/bg-main-top.gif') left top repeat-x;
+  overflow-y: scroll;
+}
+
+body {
+  color: #666;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+img {
+  border: none;
+}
+
+/* Top section */
+.top {
+  height: 100px;
+  left: 50%;
+  margin: 0 auto auto -470px;
+  position: relative;
+  width: 940px;
+}
+
+.top img {
+  cursor: pointer;
+  position: relative;
+  top: 3px;
+}
+
+.top .top-nav {
+  color: #fff;
+  float: right;
+  font-size: 11px;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.top .top-nav a {
+  color: #fff;
+  font-size: 11px;
+}
+
+.top .top-nav a.selected {
+  background: #396933;
+  color: #e8ea22;
+  padding: 2px 6px;
+  text-decoration: none;
+}
+
+.body {
+  background: #fff url('/design/img/bg-body.gif') left top repeat-y;
+  height: 100%;
+  left: 50%;
+  margin: 0 auto auto -470px;
+  position: relative;
+  width: 940px;
+}
+
+/* Main menu section */
+.body table.menu {
+  color: #fff;
+  height: 42px;
+  width: 100%;
+  border-collapse: collapse;
+  padding: 0;
+  margin-top: -1px;
+}
+
+.body table.menu td {
+  padding: 0;
+  vertical-align: top;
+  border-collapse: collapse;
+}
+
+.body table.menu td.left,
+.body table.menu td.right {
+  cursor: default;
+  padding: 0;
+  width: 30px;
+}
+
+.body table.menu td.left {
+  background: #fff url('/design/img/bg-menu-left-corner.gif') left top no-repeat;
+}
+
+.body table.menu td.right {
+  background: #fff url('/design/img/bg-menu-right-corner.gif') right top no-repeat;
+}
+
+.body table.menu td.s {
+  background: url('/design/img/bg-menu-splitter.gif') left top repeat-x;
+  border-top: 1px solid #3f8137;
+  cursor: default;
+  font-size: 1px;
+  padding: 0;
+  width: 2px;
+}
+
+.body table.menu a {
+  background: #396a33 url('/design/img/bg-menu.gif') left top repeat-x;
+  border-top: 1px solid #3f8137;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-family: Myriad Pro, MyriadPro-Regular, Arial, Sans-serif;
+  font-size: 15px;
+  height: 42px;
+  line-height: 40px;
+  padding: 0 20px 0 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.body table.menu a:hover {
+  background: #396a33 url('/design/img/bg-menu-hover.gif') left top repeat-x;
+  color: #e8ea22;
+}
+
+.body table.menu a.selected:hover {
+  background: #efad10 url('/design/img/bg-menu-selected.gif') left top repeat-x;
+  color: #fff;
+}
+
+.body table.menu a.selected {
+  background: #efad10 url('/design/img/bg-menu-selected.gif') left top repeat-x;
+}
+
+/* Path */
+.body .path {
+  background: #fff;
+  padding: 10px 0 14px 290px;
+}
+
+.body .path span {
+  color: #b3b3b3;
+  font: normal 11px Arial;
+  padding-left: 5px;
+}
+
+.body .path a {
+  background: url('/design/img/path-arrow.gif') right center no-repeat;
+  padding-right: 12px;
+  padding-left: 5px;
+}
+
+.body .path a:hover,
+.body .path a:visited,
+.body .path a:active,
+.body .path a {
+  color: #b3b3b3;
+  font: normal 11px Arial;
+  text-decoration: underline;
+}
+
+/* Contents */
+.body .contents {
+  height: auto !important;
+  height: 400px;
+  padding: 0 30px;
+}
+
+/* Submenu */
+.body .contents .submenu {
+  vertical-align: top;
+  width: 200px;
+}
+
+.body .contents .submenu a {
+  border-bottom: 1px solid #eaeaea;
+  color: #5f5f5f;
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 0 5px 0;
+  text-decoration: none;
+}
+
+.body .contents .submenu a.selected {
+  color: #d8691f;
+  background: url('/design/img/bg-submenu-selected.gif') right center no-repeat;
+}
+/*
+.body .contents .submenu-content-splitter {
+  border-right: 1px solid #eaeaea;
+}
+*/
+.body .contents .submenu-content-splitter {
+  width: 30px;
+}
+.body .contents .submenu-content-splitter div {
+  height: 450px;
+  width: 30px;
+}
+
+/* Normal layout */
+.body .contents .layout {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.body .contents .layout .content {
+  padding-left: 28px;
+  vertical-align: top;
+  padding-bottom: 28px;
+}
+
+.body .contents .layout .content h4,
+.body .contents .layout .content h5 {
+  color: #666/*#d8691f*/;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.5em;
+  margin-top: 4px;
+}
+
+.body .contents .layout .content h5 {
+  font-size: 13px;
+}
+
+.body .contents .layout .content p {
+	margin: 0;
+	margin-top: 4px;
+	margin-bottom: 1.5em;
+}
+
+.body .contents .layout .content a,
+.body .contents .layout .content a * {
+  color: #d8691f;
+}
+
+/* Bottom section */
+.bottom {
+  background: #eaeaea;
+  border-top: 1px solid #dbdbdb;
+  height: 120px;
+}
+
+.bottom .copyrights {
+  background: #595b59;
+  border-top: 1px solid #3f403f;
+  height: 121px;
+  left: 50%;
+  margin: 0 auto auto -470px;
+  position: relative;
+  top: -1px;
+  width: 920px;
+  padding-right: 20px;
+}
+
+.bottom .copyrights .logo {
+  display: block;
+  float: left;
+}
+
+.bottom .copyrights .logo img {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.bottom .copyrights .menu {
+  color: #dedede;
+  float: right;
+  font-size: 13px;
+  margin: 30px 0 0 20px;
+  text-align: right;
+}
+
+.bottom .copyrights .menu a,
+.bottom .copyrights .menu a:hover,
+.bottom .copyrights .menu a:visited,
+.bottom .copyrights .menu a:active {
+  color: #dedede;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.bottom .copyrights .menu a:hover {
+  text-decoration: underline;
+}
+
+.bottom .copyrights .menu span {
+  background: #595b59;
+  position: relative;
+  left: 10px;
+}
+
+.bottom .copyrights .menu div {
+  color: #8f8f8f;
+  float: right;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.bottom .copyrights .menu div a,
+.bottom .copyrights .menu div a:hover,
+.bottom .copyrights .menu div a:visited,
+.bottom .copyrights .menu div a:active {
+  color: #8f8f8f;
+  font-size: 11px;
+  text-decoration: underline;
+}
+
+/* overriding prettify styles */
+pre.prettyprint,
+xmp.prettyprint {
+  font: normal 11px "Courier New", "Lucida Console", serif;
+  background-color: #f0f0f0;
+  padding: 0.5em;
+  border: dashed 1px silver;
+  border-left: double 3px #6eb95e;
+  border-right: none;
+  max-height: 220px;
+  overflow: auto;
+/*  overflow-x: hidden;*/
+  width: 604px;
+}
