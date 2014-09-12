@@ -2,6 +2,7 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$USER_HOME$/Downloads/Frameworks/SVGKit-2.x/Source/Sources/SVGKSourceURL.m" description="stream = [[[NSInputStream alloc] initWithData:temp..." line="14" />
+    <bookmark url="file://$PROJECT_DIR$/CMaps/CMapViewController.m" line="27" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3f5fefa-add5-43fa-ad82-f6f5ab0f8320" name="Default" comment="">
@@ -41,8 +42,8 @@
       <file leaf-file-name="CMapViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMaps/CMapViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85784316" vertical-offset="0" max-vertical-offset="2100">
-              <caret line="35" column="89" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.46568626" vertical-offset="0" max-vertical-offset="2100">
+              <caret line="19" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="134" selection-end-column="4" />
               <folding>
                 <element signature="e#138#168#0" expanded="true" />
               </folding>
@@ -277,12 +278,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -316,6 +317,7 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -555,8 +557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMaps/CMapViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85784316" vertical-offset="0" max-vertical-offset="2100">
-          <caret line="35" column="89" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.46568626" vertical-offset="0" max-vertical-offset="2100">
+          <caret line="19" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="134" selection-end-column="4" />
           <folding>
             <element signature="e#138#168#0" expanded="true" />
           </folding>
